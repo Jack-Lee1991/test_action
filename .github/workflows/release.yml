@@ -6,7 +6,8 @@ on:
 permissions: 
   contents: write
 
-pyinstaller-build:
+jobs:
+  builds:
      runs-on: windows-latest
      steps:
        - name: Create Executable
